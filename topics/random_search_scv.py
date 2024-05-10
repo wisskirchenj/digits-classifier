@@ -16,4 +16,3 @@ param_distributions = {'kernel': kernel, 'C': C, 'gamma': gamma}
 random_search = RandomizedSearchCV(SVC(), param_distributions, random_state=42, scoring='top_k_accuracy')
 random_search.fit(X, y)
 print(random_search.best_params_)
-

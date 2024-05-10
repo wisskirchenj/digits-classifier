@@ -23,6 +23,3 @@ class TestPreprocess:
                            np.array([[0.26726124, 0.53452248, 0.80178373], [0.45584231, 0.56980288, 0.68376346]]))
         assert np.allclose(data_set.x_test,
                            np.array([[0.50257071, 0.57436653, 0.64616234]]))
-
-
-
